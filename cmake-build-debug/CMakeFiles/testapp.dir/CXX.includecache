@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/cpp/test/main.cpp
+set
+-
+vector
+-
+websocketpp/config/asio_no_tls.hpp
+-
+websocketpp/server.hpp
+-
+
